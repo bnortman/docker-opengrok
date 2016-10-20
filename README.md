@@ -1,6 +1,8 @@
 # docker-opengrok
 
-The one-liner to spin up a code search engine
+The one-liner to spin up a code search engine and connect to GitHub Organization
+build up a full set of all Repos in that Organization
+then Index that code nightly after a complete refresh
 
 [OpenGrok](http://opengrok.github.io/OpenGrok/) is a code search engine 
 made by Sun (and now Oracle). 

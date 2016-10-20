@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Zero Cho "http://itsze.ro/"
+MAINTAINER Cap10Bill "https://github.com/bnortman/docker-opengrok"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV OPENGROK_INSTANCE_BASE /grok
