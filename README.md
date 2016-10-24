@@ -16,7 +16,7 @@ to start an instance of OpenGrok by one command.
 To start the OpenGrok, simply run:
 
 ```sh
-docker run -d -v [source to be indexed on host]:/src -p [public port]:8080 itszero/opengrok
+docker run -d -v [source to be indexed on host]:/src -p [public port]:8080 cap10bill/opengrok
 ```
 
 It may take a while for the indexer to finish the first-time indexing, after

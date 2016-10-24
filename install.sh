@@ -12,3 +12,5 @@ echo "Change Directory"
 cd opengrok/bin
 echo "Deploy OpenGrok"
 ./OpenGrok deploy
+echo "Getting GitHub Org Processor"
+git pull git@github.com:bnortman/useful-utilities.git
